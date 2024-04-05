@@ -1,0 +1,101 @@
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    margin: 20px;
+    padding: 0; /* Reset default padding */
+}
+
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px; /* Decreased font size for smaller screens */
+    padding-bottom: 20px; /* Decreased padding */
+}
+
+h3 {
+    color: antiquewhite;
+    padding-bottom: 15px; /* Decreased padding */
+    font-size: 24px; /* Decreased font size */
+}
+
+form, section {
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.picture {
+    width: 200px; /* Decreased width for smaller screens */
+    height: 200px; /* Decreased height for smaller screens */
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block; /* Changed to block for better responsiveness */
+    margin: 0 auto 20px; /* Centered image and added margin at the bottom */
+}
+
+.overview {
+    color: antiquewhite;
+    margin-bottom: 20px; /* Decreased margin for smaller screens */
+    padding: 0; /* Reset default padding */
+} 
+
+button:hover {
+    outline: none;
+    color: black;
+    background: blueviolet;
+}
+
+table {
+    margin-bottom: 15px; /* Decreased margin for smaller screens */
+}
+
+ol, ul {
+    margin-bottom: 15px; /* Decreased margin for smaller screens */
+    padding-left: 20px; /* Added left padding */
+}
+
+.placeholder {
+    color: black;
+}
+
+input, textarea, select, button {
+    padding: 10px;
+    margin-bottom: 15px; /* Decreased margin for smaller screens */
+    border-radius: 10px;
+    background: white;
+    color: black;
+    width: 100%; /* Set width to 100% for better responsiveness */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.emailandphone {
+    text-align: end; /* Changed to text-align for better alignment */
+   
+}
+
+.contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px; /* Added margin at the bottom */
+}
+p {
+    margin-bottom: 15px; /* Decreased margin for smaller screens */
+    font-size: 20px; /* Decreased font size for smaller screens */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.emailandphone :hover {
+    color: blueviolet;
+}
+
+a:hover {
+    color: orange;
+}
